@@ -261,7 +261,7 @@ function initGame(e)
             }
             if(maxGuesses<1)
                 {
-                    alert("Kire, paros na eida? mara kha");
+                    alert("Ooh! Missed it!");
                     for(let i=0;i<word.length;i++)
                         {
                             inputs.querySelectorAll("input")[i].value=word[i];
